@@ -1,0 +1,121 @@
+baseURL       = "https://statistix.be/"
+languageCode  = "fr"
+title         = "statistix | Profs de stat"
+theme         = "roxo-hugo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "A propos"
+    url     = "about"
+    weight  = 1
+  [[menu.nav]]
+    name    = "Nos profs"
+    url     = "portfolio"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Devenir prof"
+    url     = "contact"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Contactez-nous"
+    url     = "contact"
+    weight  = 4
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "statistix | Trouvez facilement un prof de statistique pour vos cours, mémoires ou TFE."
+  author = "Antoine Soetewey"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "Prénom"
+    placeholder_last_name         = "Nom"
+    placeholder_email             = "Email"
+    placeholder_project_type      = "Sujet"
+    placeholder_about_the_project = "Votre message"
+    send_message                  = "Envoyer"
+
+    [[params.contactForm.projectType]]
+      value = "gd"
+      title  = "J'aimerais devenir prof"
+    [[params.contactForm.projectType]]
+      value = "wd"
+      title  = "J'ai une question générale"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Contactez-nous"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/cta-background.jpg"
+    heading               = "Vous êtes étudiant à la recherche d'un prof de statistique? Vous êtes prof de statistique?"
+    tagline               = ""
+    primary_button        = "Je suis étudiant"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Je suis prof"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = true
+    title     = "NOS PROFS"
+    subtitle  = "Voici notre équipe de profs qui vous aidera dans la réussite de votre cours de statistique ou dans la réalisation de la partie statistique de votre mémoire ou TFE."
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "TRAVAILLONS ENSEMBLE"
+    primary_button      = "Je suis étudiant"
+    primary_button_url  = "portfolio"
+    secondary_button    = "Je suis prof"
+    secondary_button_url = "contact"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact"
+      address = "Louvain-la-Neuve, Belgique"
+      phone   = "0032477280521"
+      email   = "ant.soetewey@gmail.com"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Liens"
+        [[params.footer.sitemap.link]]
+          name = "A propos"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Nos profs"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Devenir prof"
+          url  = "contact"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social"
+        [[params.footer.social.link]]
+          name = "Twitter"
+          url  = "https://twitter.com/statsandr"
+        [[params.footer.social.link]]
+          name = "Blog"
+          url  = "https://statsandr.com/"
+      # Footer Service
+      [params.footer.service]
+        title       = "statistix"
+        description = "Trouvez facilement un prof de<br>statistique compétent et éxpérimenté<br>pour vos cours, mémoires ou TFE."
