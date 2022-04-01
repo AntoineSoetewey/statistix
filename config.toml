@@ -1,4 +1,4 @@
-baseURL       = "https://statistix.be/"
+baseURL       = "https://statistix.netlify.app/"
 languageCode  = "fr"
 title         = "statistix | Profs de stat"
 theme         = "roxo-hugo"
