@@ -88,9 +88,9 @@ summarylength = 25
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact"
-      address = "Louvain-la-Neuve, Belgique"
-      phone   = "0032477280521"
-      email   = "ant.soetewey@gmail.com"
+      address = ""
+      phone   = ""
+      email   = ""
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Liens"
