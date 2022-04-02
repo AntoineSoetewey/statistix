@@ -1,0 +1,38 @@
+theme: "hugo-PaperMod"
+baseURL: https://statistix.be/
+languageCode: en-us
+title: statistix
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+pygmentsUseClasses: true
+
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+          
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: statistix
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+
+    # profile-mode
+    profileMode:
+        enabled: true # needs to be explicitly set
+        title: statistix
+        buttons:
+            - name: Personal website
+              url: "https://antoinesoetewey.com/"
+            - name: Blog
+              url: https://statsandr.com/
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/statsandr"
+        - name: github
+          url: "https://github.com/AntoineSoetewey"
