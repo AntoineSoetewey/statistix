@@ -2,7 +2,7 @@ languageCode = "fr"
 languageName = "French"
 displayName = ":fr:"
 isoCode = "fr"
-weight = 1
+weight = 2
 rtl = false
 
 title = "statistix"
