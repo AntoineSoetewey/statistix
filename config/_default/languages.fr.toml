@@ -1,12 +1,12 @@
-languageCode = "en"
-languageName = "English"
-displayName = ":gb:"
-isoCode = "en"
+languageCode = "fr"
+languageName = "French"
+displayName = ":fr:"
+isoCode = "fr"
 weight = 1
 rtl = false
 
 title = "statistix"
-description = "Antoine Soetewey - Consultant in statistics and R"
+description = "Antoine Soetewey - Consultant en statistique et R"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 dateFormat = "2 January 2006"
@@ -17,7 +17,7 @@ dateFormat = "2 January 2006"
 [author]
   name = "Antoine Soetewey"
   # image = "img/author.jpg"
-  # headline = "Consultant in statistics and R"
+  # headline = "Consultant en statistique et R"
   # bio = "A little bit about you"
   links = [
     { linkedin2 = "https://www.linkedin.com/in/antoinesoetewey/" },
