@@ -1,3 +1,4 @@
+theme = "congo"
 baseURL = "https://statistix.be/"
 defaultContentLanguage = "en"
 
