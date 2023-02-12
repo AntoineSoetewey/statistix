@@ -79,9 +79,3 @@ params:
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
-ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
