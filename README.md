@@ -4,4 +4,4 @@ Plus d'informations sur [statistix.be](https://statistix.be/)
 
 # Status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6c261bb9-0a94-4b41-b92e-6212e3b9c65f/deploy-status)](https://app.netlify.com/sites/statistix/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7a828667-ecb2-4436-ae35-3808e0c0de49/deploy-status)](https://app.netlify.com/sites/statistix/deploys)
