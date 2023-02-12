@@ -1,6 +1,6 @@
 # statistix
 
-Plus d'informations sur [statistix.be](https://statistix.be/)
+More information at [statistix.be](https://statistix.be/)
 
 # Status
 

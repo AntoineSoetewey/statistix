@@ -23,8 +23,8 @@ dateFormat = "2 January 2006"
     { linkedin2 = "https://www.linkedin.com/in/antoinesoetewey/" },
     { github = "https://github.com/AntoineSoetewey" },
     { twitter = "https://twitter.com/statsandr" },
-    { medium = "https://antoinesoetewey.medium.com/" },
     { google-scholar = "https://scholar.google.com/citations?user=1P7ThwUAAAAJ" }
+  #   { medium = "https://antoinesoetewey.medium.com/" },
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
