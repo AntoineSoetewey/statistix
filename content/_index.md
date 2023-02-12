@@ -9,10 +9,10 @@ title: 'statistix'
 Consultant in statistics and R
 {{< /lead >}}
 
-{{< button href="https://antoinesoetewey.com/" target="_self" >}}
+{{< button href="https://datanalyze.be/" target="_self" >}}
 About
 {{< /button >}}
 
-{{< button href="https://datanalyze.be/" target="_self" >}}
+{{< button href="https://datanalyze.be/#contact" target="_self" >}}
 Contact
 {{< /button >}}

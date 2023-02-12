@@ -9,7 +9,7 @@ title: 'statistix'
 Consultant en statistique et R
 {{< /lead >}}
 
-{{< button href="https://antoinesoetewey.com/fr/" target="_self" >}}
+{{< button href="https://datanalyze.be/fr/" target="_self" >}}
 A propos
 {{< /button >}}
 
