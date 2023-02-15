@@ -6,13 +6,18 @@ title: 'statistix'
 <br>
 
 {{< lead >}}
-Consultant in statistics and R
+Are you looking for a statistician?
 {{< /lead >}}
 
-{{< button href="https://datanalyze.be/" target="_self" >}}
+I am a consultant and professor in statistics and R.
+<br> Feel free to contact me if you need help.
+
+<br>
+
+{{< button href="https://antoinesoetewey.com/" target="_self" >}}
 About
 {{< /button >}}
 
-{{< button href="https://datanalyze.be/#contact" target="_self" >}}
+{{< button href="https://airtable.com/shrbfh58Qab0xD4X8" target="_self" >}}
 Contact
 {{< /button >}}

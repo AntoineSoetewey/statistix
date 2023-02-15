@@ -6,13 +6,18 @@ title: 'statistix'
 <br>
 
 {{< lead >}}
-Consultant en statistique et R
+Vous recherchez un statisticien ?
 {{< /lead >}}
 
-{{< button href="https://datanalyze.be/fr/" target="_self" >}}
+Je suis consultant et professeur en statistique et R.
+<br>N'hésitez pas à me contacter si vous avez besoin d'aide.
+
+<br>
+
+{{< button href="https://antoinesoetewey.com/fr/" target="_self" >}}
 A propos
 {{< /button >}}
 
-{{< button href="https://datanalyze.be/fr/#contact" target="_self" >}}
+{{< button href="https://airtable.com/shrbfh58Qab0xD4X8" target="_self" >}}
 Contactez-moi
 {{< /button >}}
