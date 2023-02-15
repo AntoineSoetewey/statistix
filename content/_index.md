@@ -9,7 +9,7 @@ title: 'statistix'
 Are you looking for a statistician?
 {{< /lead >}}
 
-I am a consultant and professor in statistics and R.
+I am a consultant and trainer in statistics and R.
 <br> Feel free to contact me if you need help.
 
 <br>

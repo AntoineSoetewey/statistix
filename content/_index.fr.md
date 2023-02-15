@@ -9,7 +9,7 @@ title: 'statistix'
 Vous recherchez un statisticien ?
 {{< /lead >}}
 
-Je suis consultant et professeur en statistique et R.
+Je suis consultant et formateur en statistique et R.
 <br>N'hésitez pas à me contacter si vous avez besoin d'aide.
 
 <br>
