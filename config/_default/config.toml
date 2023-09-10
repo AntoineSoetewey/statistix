@@ -1,4 +1,9 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/getting-started/
+
 theme = "congo"
+
 baseURL = "https://statistix.be/"
 defaultContentLanguage = "en"
 
@@ -6,12 +11,14 @@ enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
 
-googleAnalytics = "G-B16FG2L1XK"
+# googleAnalytics = ""
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
+  
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+      
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]

@@ -11,12 +11,15 @@ autoSwitchAppearance = true
 
 enableSearch = false
 enableCodeCopy = false
+enableImageLazyLoading = true
 
 # robots = ""
+fingerprintAlgorithm = "sha256"
 
 [header]
-  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
+  layout = "basic" # valid options: basic, hamburger, hybrid, custom
   # logo = "img/logo.jpg"
+  # logoDark = "img/dark-logo.jpg"
   showTitle = true
 
 [footer]
@@ -37,7 +40,7 @@ enableCodeCopy = false
   showBreadcrumbs = false
   showDraftLabel = true
   showEdit = false
-  editURL = "https://github.com/AntoineSoetewey/statistix"
+  # editURL = "https://github.com/username/repo/"
   editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
@@ -66,6 +69,11 @@ enableCodeCopy = false
 [fathomAnalytics]
   # site = "ABC12345"
   # domain = "llama.yoursite.com"
+
+[plausibleAnalytics]
+  # domain = "blog.yoursite.com"
+  # event = ""
+  # script = ""
 
 [verification]
   # google = ""

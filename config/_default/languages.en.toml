@@ -1,30 +1,26 @@
 languageCode = "en"
 languageName = "English"
-displayName = ":gb:"
-isoCode = "en"
 weight = 1
-rtl = false
 
-title = "statistix"
-description = "Antoine Soetewey - Consultant in statistics and R"
-# copyright = "Copy, _right?_ :thinking_face:"
-
-dateFormat = "2 January 2006"
+title = "Antoine Soetewey"
+# copyright = "Antoine Soetewey"
 
 [params]
+  isoCode = "en"
+  displayName = ":gb:"
+  rtl = false
+
+  dateFormat = "2 January 2006"
+
   # mainSections = ["section1", "section2"]
+  description = "Are you looking for a statistician? I am a consultant and trainer in statistics and R."
 
 [author]
   name = "Antoine Soetewey"
   # image = "img/author.jpg"
-  # headline = "Consultant in statistics and R"
+  # headline = "I'm only human"
   # bio = "A little bit about you"
-  links = [
-    { linkedin2 = "https://www.linkedin.com/in/antoinesoetewey/" },
-    { github = "https://github.com/AntoineSoetewey" },
-    { twitter = "https://twitter.com/statsandr" },
-    { google-scholar = "https://scholar.google.com/citations?user=1P7ThwUAAAAJ" }
-  #   { medium = "https://antoinesoetewey.medium.com/" },
+  # links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
@@ -37,6 +33,7 @@ dateFormat = "2 January 2006"
   #   { facebook = "https://facebook.com/username" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
+  #   { github = "https://github.com/username" },
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/" },
   #   { hashnode = "https://username.hashnode.dev" },
@@ -44,7 +41,9 @@ dateFormat = "2 January 2006"
   #   { keybase = "https://keybase.io/username" },
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
+  #   { linkedin = "https://linkedin.com/in/username" },
   #   { mastodon = "https://mastodon.instance/@username" },
+  #   { medium = "https://medium.com/username" },
   #   { microsoft = "https://www.microsoft.com/" },
   #   { orcid = "https://orcid.org/userid" },
   #   { patreon = "https://www.patreon.com/username" },
@@ -60,6 +59,7 @@ dateFormat = "2 January 2006"
   #   { tiktok = "https://tiktok.com/@username" },
   #   { tumblr = "https://username.tumblr.com" },
   #   { twitch = "https://twitch.tv/username" },
+  #   { twitter = "https://twitter.com/username" },
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { youtube = "https://youtube.com/username" },
-  ]
+  # ]

@@ -6,6 +6,73 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Added
+
+- Plausible Analytics support ([#584](https://github.com/jpanther/congo/pull/584))
+- Spanish translation of example site samples ([#606](https://github.com/jpanther/congo/pull/606))
+- Japanese translation of docs and example site ([#618](https://github.com/jpanther/congo/pull/618))
+- German translation of example site ([#631](https://github.com/jpanther/congo/pull/631))
+
+### Changed
+
+- Upgrade to Mermaid v10.4.0 ([#577](https://github.com/jpanther/congo/pull/577), [#582](https://github.com/jpanther/congo/pull/582), [#626](https://github.com/jpanther/congo/pull/626), [#638](https://github.com/jpanther/congo/pull/638))
+- Upgrade to KaTeX v0.16.8 ([#590](https://github.com/jpanther/congo/pull/590))
+- Upgrade to Tailwind v3.3.3 ([#602](https://github.com/jpanther/congo/pull/602))
+- Upgrade to ChartJS v4.3.3 ([#616](https://github.com/jpanther/congo/pull/616), [#627](https://github.com/jpanther/congo/pull/627), [#635](https://github.com/jpanther/congo/pull/635))
+- Upgrade to Typography v0.5.10 ([#641](https://github.com/jpanther/congo/pull/641))
+
+### Fixed
+
+- Prominent images in content and site layout are lazy loaded ([#591](https://github.com/jpanther/congo/issues/591))
+- TypeError is output to console when viewing leaf pages ([#596](https://github.com/jpanther/congo/issues/596))
+- URL to Congo project in footer used deprecated git.io short link ([#605](https://github.com/jpanther/congo/issues/605))
+- Various typos in the docs and example site ([#608](https://github.com/jpanther/congo/pull/608), [#609](https://github.com/jpanther/congo/pull/609), [#613](https://github.com/jpanther/congo/pull/613))
+- Incorrect `render` value is used in the 'external' archetype ([#630](https://github.com/jpanther/congo/pull/630))
+
+## [2.6.1] - 2023-06-04
+
+### Changed
+
+- Images are now marked for lazy loading by default ([#552](https://github.com/jpanther/congo/pull/552))
+- Current language is no longer displayed in language selection ([#565](https://github.com/jpanther/congo/issues/565))
+- Updated Simplified Chinese (China) translation ([#573](https://github.com/jpanther/congo/pull/573))
+
+### Fixed
+
+- Language selection repeats current language on multilingual sites instead of linking to translated content ([#565](https://github.com/jpanther/congo/issues/565))
+- Icon padding inconsistent when using `--minify` option to build site ([#568](https://github.com/jpanther/congo/pull/568))
+- Copyright string in the language configuration does not apply ([#572](https://github.com/jpanther/congo/issues/572))
+- Upgrade to Mermaid v10.2.1 ([#569](https://github.com/jpanther/congo/pull/569))
+
+## [2.6.0] - 2023-05-25
+
+### Added
+
+- Support for Hugo v0.112.0
+- Ability to specify an alternate logo image when dark appearance is active ([#533](https://github.com/jpanther/congo/pull/533), [#543](https://github.com/jpanther/congo/pull/543))
+- Ability to specify the hashing algorithm that is used when fingerprinting assets ([#478](https://github.com/jpanther/congo/issues/478))
+- Arabic translation ([#521](https://github.com/jpanther/congo/pull/521))
+- Slovak translation ([#541](https://github.com/jpanther/congo/pull/541))
+- Czech translation ([#541](https://github.com/jpanther/congo/pull/541))
+
+### Changed
+
+- ⚠️ Some parameters in the root of the Languages config file have been nested under the `params` block
+- Search results now respect `showDate` value when displaying article metadata ([#511](https://github.com/jpanther/congo/pull/511))
+- Adopted new Tailwind logical properties for RTL styling
+- Article sharing links now open in a new tab/window
+- Updated Dutch translation ([#544](https://github.com/jpanther/congo/pull/544))
+- Upgrade to Tailwind v3.3.1 ([#523](https://github.com/jpanther/congo/pull/523))
+- Upgrade to KaTeX v0.16.7 ([#538](https://github.com/jpanther/congo/pull/538), [#549](https://github.com/jpanther/congo/pull/549))
+- Upgrade to Chart.js v4.3.0 ([#551](https://github.com/jpanther/congo/pull/551))
+- Upgrade to Mermaid v10.2.0 ([#563](https://github.com/jpanther/congo/pull/563))
+
+### Fixed
+
+- Some `srcset` values are broken when using Hugo `--minify` option ([#508](https://github.com/jpanther/congo/pull/508))
+- Author images are cropped off-centre during image processing ([#527](https://github.com/jpanther/congo/pull/527))
+- Site doesn't build when using Hugo v0.112.0 ([#561](https://github.com/jpanther/congo/pull/561))
+
 ## [2.5.4] - 2023-03-20
 
 ### Added
@@ -223,7 +290,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Added
 
-- Breadcrumb display can now be can now be specificed in front matter for articles and list pages
+- Breadcrumb display can now be can now be specified in front matter for articles and list pages
 - Italian translation ([#209](https://github.com/jpanther/congo/pull/209))
 
 ### Changed
@@ -523,7 +590,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Dark mode toggle with new theme parameters for managing light/dark appearance
 - French translation ([#18](https://github.com/jpanther/congo/pull/18))
 - Author bio in article footer
-- Grouping by year can now be specificed in front matter on list pages
+- Grouping by year can now be specified in front matter on list pages
 
 ### Changed
 
@@ -659,7 +726,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Advanced customisation using simple Tailwind colour definitions and styles
 - Fully documented
 
-[Unreleased]: https://github.com/jpanther/congo/compare/v2.5.4...HEAD
+[Unreleased]: https://github.com/jpanther/congo/compare/v2.6.1...HEAD
+[2.6.1]: https://github.com/jpanther/congo/compare/v2.6.0...v2.6.1
+[2.6.0]: https://github.com/jpanther/congo/compare/v2.5.4...v2.6.0
 [2.5.4]: https://github.com/jpanther/congo/compare/v2.5.3...v2.5.4
 [2.5.3]: https://github.com/jpanther/congo/compare/v2.5.2...v2.5.3
 [2.5.2]: https://github.com/jpanther/congo/compare/v2.5.1...v2.5.2
