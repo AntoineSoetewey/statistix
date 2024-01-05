@@ -6,7 +6,7 @@ title: 'statistix'
 <br>
 
 {{< lead >}}
-Are you looking for a statistician? 
+Are you looking for a statistician?
 {{< /lead >}}
 
 I am a consultant and trainer in statistics and R.
