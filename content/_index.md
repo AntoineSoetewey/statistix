@@ -18,6 +18,6 @@ I am a consultant and trainer in statistics and R.
 About
 {{< /button >}}
 
-{{< button href="https://airtable.com/appB9dF1RZeEgOXM2/paggfTvbWXErQKlKb/form" target="_self" >}}
+{{< button href="https://datanalyze.be/#contact" target="_self" >}}
 Contact
 {{< /button >}}
