@@ -18,6 +18,6 @@ Je suis consultant et formateur en statistique et R.
 A propos
 {{< /button >}}
 
-{{< button href="https://airtable.com/shrbfh58Qab0xD4X8" target="_self" >}}
+{{< button href="https://airtable.com/appB9dF1RZeEgOXM2/paggfTvbWXErQKlKb/form" target="_self" >}}
 Contactez-moi
 {{< /button >}}
