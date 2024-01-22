@@ -12,7 +12,7 @@ title = "Antoine Soetewey"
   # mainSections = ["section1", "section2"]
   description = "Are you looking for a statistician? I am a consultant and trainer in statistics and R."
 
-[author]
+[params.author]
   name = "Antoine Soetewey"
   image = "img/Antoine-Soetewey.jpeg"
   # headline = "I'm only human"
