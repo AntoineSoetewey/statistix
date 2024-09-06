@@ -1,6 +1,4 @@
-# statistix
 
-Landing page for my services as statistician. More information at [statistix.be](https://statistix.be/)
 
 # Status
 
